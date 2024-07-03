@@ -1,0 +1,40 @@
+
+/* 
+    Three types of CSS
+
+    1. Inline CSS (Inside Tag as the style attribute )
+    2. Internal CSS (inside style tag attached by classes, ids or tagnames)
+    3. External CSS (Inside another CSS file eg., style.css and attached by link tag)        
+*/
+
+/* 
+    For Internal || External CSS attachment you have three methods of pointing. 
+    1. tag name
+    2. classname
+    3. id 
+*/
+
+p {
+    color: blue;
+    text-align: center;
+    background-color: brown;
+}
+
+span {
+    color: palegreen;
+    background-color: blue;
+    font-weight: bold;
+}
+
+.lorem {
+    color: orange;
+}
+
+.white {
+    background-color: white;
+}
+
+
+#linktag {
+    color: black;
+}
