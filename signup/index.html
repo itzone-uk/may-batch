@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+        <h1>Sign up Form &#x2211;</h1>
+        <img src="/images/Air_india_maharajah.jpg" alt="">
+        <form>
+            <label for="firstname" id="firstname" class="label formelement">First Name</label>
+            <input type="text" name="firstname" minlength="3" maxlength="20" id="firstname"
+                class="inputField formelement">
+            <br>
+            <br>
+            <label for="lastname" class="label formelement">Last Name</label>
+            <input type="text" name="lastname" id="lastname" class="inputField formelement">
+            <br>
+            <br>
+
+            <label for="email" class="label formelement">Email</label>
+            <input type="email" name="email" id="email" class="inputField formelement">
+            <br>
+            <br>
+
+            <label for="phoneNo" class="label formelement">Phone Number</label>
+            <input type="tel" name="phoneNo" id="phoneNo" class="inputField formelement">
+            <hr>
+
+            <label for="gender" class="label formelement">Gender</label>
+            <br>
+
+            <label for="gender">Male</label>
+            <input type="radio" checked name="gender" value="male" id="phoneNo" class="inputField formelement">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="female" id="phoneNo" class="inputField formelement">
+            <br>
+            <br>
+
+            <input title="DO you agreed or not?" type="checkbox" name="user-aggrement" id="user-aggrement"
+                class="inputField formelement">
+            <label for="user-aggrement" title="DO you agreed or not?" class="label formelement">Do You Agree to Terms
+                and Services/Policies?</label>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Marks Division &lt;</legend>
+                <label for="marks">Marks You Got:</label>
+
+                <select name="marks" id="cars">
+                    <option disabled>Choose one: </option>
+                    <option value="1">Average</option>
+                    <option value="2">Good</option>
+                    <option value="3">Great</option>
+                    <option value="4">Exelent</option>
+                    <option value="0">Fail	&#10084;</option>
+                </select>
+            </fieldset>
+            <hr>
+            <br>
+            <input type="reset" value="Reset &#128533;">
+            <input type="submit" value="Submit &#128512;">
+        </form>
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
