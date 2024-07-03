@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+
+
+    <style>
+        .para .span2,
+        #span1 {
+            text-decoration: line-through;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .para {
+            text-align: start;
+        }
+
+        main {
+            background: linear-gradient(0deg, rgb(255, 0, 0) 0%, rgb(115, 0, 0) 50%);
+            text-transform: uppercase;
+        }
+
+        .transform {
+            font-size: 2rem;
+            color: white;
+            text-transform: capitalize;
+            font-size: initial;
+        }
+
+        html {
+            text-transform: uppercase;
+        }
+
+        #before {
+            font-size: 1.5rem;
+            color: beige;
+            text-transform: lowercase;
+            text-transform: inherit;
+            text-transform: initial;
+        }
+    </style>
+</head>
+
+<body style="text-transform: uppercase;">
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/text">Text</a>
+        </nav>
+
+    </header>
+    <main style="background-color: aquamarine;">
+
+        <h1>Text</h1>
+        <p class="para">Lorem, ipsum dolor sit amet <span id="span1">consectetur</span> adipisicing elit. Laboriosam,
+            totam alias <span class="span2">eligendi</span> numquam nihil iste!</p>
+
+        <p>Lorem ipsum dolor sit amet <span id="span1">consectetur</span> adipisicing elit. <span
+                class="span2">Eligendi</span> commodi magnam omnis cupiditate, totam corrupti sint molestias! Porro,
+            perspiciatis optio!</p>
+
+            <p class="transform">Lorem ipsum dolor sit amet consectetur, adipisicing elit. aspernatur exercitationem odio at animi ad eaque repellendus eum iure sapiente, voluptates perferendis, vel, fugit obcaecati? enim pariatur quasi architecto molestias ipsum aliquam, fugit itaque quae accusantium repellendus culpa expedita deserunt commodi iusto veritatis eaque labore hic unde debitis nam! Labore, distinctio.</p>
+
+
+            <p id="before"><span >Before you can.</span> <span>Begin to determine.</span> what the composition. <span>of a particular paragraph will be,</span> you must first decide on an argument and a working thesis statement for your paper. What is the most important idea that you are trying to convey to your reader? The information in each paragraph must be related to that idea. In other words, your paragraphs should remind your reader that there is a recurrent relationship between your thesis and the information in each paragraph. A working thesis functions like a seed from which your paper, and your ideas, will grow. The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.</p>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

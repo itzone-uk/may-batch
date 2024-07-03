@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Google Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>Fonts and Font styles</title>
+
+    <style>
+        .font {
+            font-size: 24px;
+        }
+
+        .rem-unit {
+            font-size: 2rem;
+        }
+
+        .em-unit {
+            /* 1em = 16px */
+            font-size: 2em;
+        }
+
+        .family1 {
+            font-family: 'Franklin Gothic Meium', 'Arial Narow', Aral, sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .family2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .family3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .roboto-family {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .arsenal-family {
+            font-family: "Arsenal SC", sans-serif;
+            font-weight: lighter;
+            font-style: italic;
+            font-style: normal;
+            font-stretch: extra-condensed;
+        }
+
+        .arsenal-family span {
+            font-style: italic;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="/text">Text</a>
+        </nav>
+
+    </header>
+    <main style="background-color: aquamarine;">
+
+        <h1 style="color: beige;">Fonts and Font styles</h1>
+
+        <p class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sint.</p>
+
+        <p class="rem-unit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores libero delectus id
+            nesciunt repudiandae mollitia.</p>
+        <p class="em-unit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores libero delectus id nesciunt
+            repudiandae mollitia.</p>
+
+        <p class="family1 font">Lorem ipsum dolor sit amet.</p>
+        <p class="family2 font">Lorem ipsum dolor sit amet.</p>
+        <p class="roboto-family font">Lorem ipsum dolor sit amet.</p>
+        <p class="arsenal-family font">Lore<span>m</span> ipsum dolor sit amet.</p>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
