@@ -1,10 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    /* text-decoration: none; */
+    text-decoration: none;
     list-style-type: none;
 }
 
+a {
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
 
 .nav-list {
     margin: 1rem;
@@ -23,11 +29,11 @@
     padding-top: 6px;
     padding-block: 6px;
     padding-inline: 20px;
-    /* for 2 values top || left-right || bottom */
+    /* for 3 values top || left-right || bottom */
     /* padding: 6px 20px 0px; */
     
-    /* for 2 values top || left || right || bottom */
-    /* padding: 6px 20px 0px; */
+    /* for 2 values top || right || bottom || left */
+    /* padding: 6px 20px 0px 50px; */
 }
 
 .nav-list li:nth-child(2)
@@ -39,3 +45,10 @@
     
 }
 
+.border {
+    border: 1px solid black;
+}
+
+.twitter-icon svg {
+    font-size: 5rem;
+}
