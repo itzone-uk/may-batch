@@ -14,7 +14,7 @@
     background-color: yellow;
     padding: 20px;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px dashed black;
     outline: 5px solid green;
 
     /* for 2 values top-bottom || left-right */
@@ -39,3 +39,9 @@
     
 }
 
+.border {
+    border-width: 0px;
+    border-style: dashed;
+    border-color: yellow;
+
+}
