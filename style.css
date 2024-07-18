@@ -12,43 +12,38 @@ a {
     text-decoration: none;
 }
 
-.nav-list {
+.navlist {
     margin: 1rem;
 }
 
-.nav-list li {
-    background-color: yellow;
-    padding: 20px;
-    margin: 10px;
-    border: 2px solid black;
-    outline: 5px solid green;
-
-    /* for 2 values top-bottom || left-right */
-    /* for 2 values block || inline */
-    padding: 10px 20px;
-    padding-top: 6px;
-    padding-block: 6px;
-    padding-inline: 20px;
-    /* for 3 values top || left-right || bottom */
-    /* padding: 6px 20px 0px; */
-    
-    /* for 2 values top || right || bottom || left */
-    /* padding: 6px 20px 0px 50px; */
+.inline {
+    display: inline;
 }
 
-.nav-list li:nth-child(2)
-
-.underline * {
-    text-decoration: none;
-}
-.margin-padding-border-outline{
-    
+.block {
+    display: block;
 }
 
-.border {
-    border: 1px solid black;
+
+.inline-block-element {
+    display: inline-block;
+    padding: 100px 100px 0;
+    width: 400px;
+    height: 100px;
 }
 
-.twitter-icon svg {
-    font-size: 5rem;
+.block-element {
+    display: block;
+    padding: 100px 100px 0;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    /* box-sizing: border-box; */
+}
+
+
+.inline-element {
+    display: inline;
+    padding: 100px;
+    width: 500px;
 }
