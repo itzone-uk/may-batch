@@ -1,38 +1,38 @@
-.navbar {
+.navbar-parent {
   display: flex;
 
   padding: 1rem;
   /* gap: 1rem; */
   row-gap: 1rem;
-  column-gap: 1rem;
+  column-gap: 2rem;
   /* flex-direction: column; */
-  
-  height: 300px;
+
+  height: 70px;
   background-color: aquamarine;
-  /* align-items: center; */
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 
-width: 500px;
-
+  /* width: 500px; */
 
 }
 
-.navbar li {
-  width: 100px;
+.navbar-parent li {
+  /* width: 100px; */
+  background-color: bisque;
 }
 
 
-.navbar li:nth-child(1) {
-   /* padding: 10px; */
-   width: 100px;
+.navbar-parent li:nth-child(1) {
+  /* padding: 10px; */
+  /* width: 100px;
    text-align: center;
    display: flex;
    justify-content: center;
-   height: 30px;
-} 
+   height: 30px; */
+}
 
 
-.navbar li:nth-child(1) a {
+.navbar-parent li a {
   background-color: brown;
   color: white;
   padding: 6px 10px;
