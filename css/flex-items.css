@@ -1,0 +1,13 @@
+.flex-items {
+
+    display: flex;
+    display: grid;
+}
+
+.flex-items .first {
+   order: -1;
+}
+
+.flex-items li:nth-child(4) {
+    order: 1;
+}
