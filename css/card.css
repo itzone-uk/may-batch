@@ -1,0 +1,35 @@
+
+.cards-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-block: 2rem;
+}
+
+
+.card {
+    width: 200px;
+    border: 2px groove black;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.card div:nth-child(1) {
+    height: 120px;
+    width: 200px;
+}
+
+
+@media screen and (max-width:978px) {
+    .cards-div {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .cards-div {
+        grid-template-columns: auto auto;
+    }
+}

@@ -1,0 +1,74 @@
+header {
+    position: static;
+    /* Devault Position Value  */
+
+    position: fixed;
+    top: 0;
+    /* bottom: 0; */
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 70px;
+}
+
+
+.sticky {
+    position: sticky;
+    top:70px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    z-index: 1;
+}
+
+.heading3 {
+    position: sticky;
+    top:70px;
+    background-color: aqua;
+    padding: 20px;
+    z-index: 2;
+}
+
+
+/* This will be applied to the element that has the class "sticky" */
+.fixed-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute-img {
+    position: absolute;
+    border-radius: 50%;
+    top: -20px;
+    left: 85px;
+}
+
+.absolute-img img {
+    border-radius: inherit;
+}

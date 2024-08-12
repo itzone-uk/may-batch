@@ -1,0 +1,28 @@
+header {
+
+    background: #0deaea;
+    display: flex;
+    height: 70px;
+    gap: 2rem;
+
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header div img {
+    height: 40px;
+}
